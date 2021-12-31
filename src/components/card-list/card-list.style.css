@@ -5,3 +5,20 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .card-list {
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 510px) {
+    .card-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
